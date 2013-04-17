@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomViewXIB", "CustomViewXIB\CustomViewXIB.csproj", "{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Release|iPhone.Build.0 = Release|iPhone
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C4C02FA1-71F1-4D97-A84F-9D004687ADFA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CustomViewXIB\CustomViewXIB.csproj
+	EndGlobalSection
+EndGlobal
