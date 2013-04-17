@@ -34,7 +34,7 @@ namespace CustomViewXIB
 //			this.myCustomView = new MyCustomView(this.Handle);
 
 			// NullReferenceException!
-			this.myCustomView.Label.Text = "New Text";
+//			this.myCustomView.Label.Text = "New Text";
 		}
 	}
 }
