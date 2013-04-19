@@ -23,6 +23,13 @@ namespace CustomViewXIB
 		public MyCustomView (IntPtr handle) : base (handle)
 		{
 		}
+
+		public static readonly UINib Nib = UINib.FromName ("MyCustomView", NSBundle.MainBundle);
+
+		public static MyCustomView Create()
+		{
+			return (MyCustomView)Nib.Instantiate(null, null)[0];
+		}
 	}
 }
 
