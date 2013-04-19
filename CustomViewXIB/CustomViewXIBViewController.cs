@@ -25,9 +25,10 @@ namespace CustomViewXIB
 		{
 			base.ViewDidLoad ();
 
+			myCustomView = MyCustomView.Create();
+			myCustomView.Frame = new RectangleF(0,0,320,200);
+			Add(myCustomView);
 			// doesn't work
-//			var nibObjects = NSBundle.MainBundle.LoadNib("MyCustomView", this, null);
-//			this.myCustomView = Runtime.GetNSObject(nibObjects.ValueAt(0)) as MyCustomView;
 
 
 			// doesn't work
